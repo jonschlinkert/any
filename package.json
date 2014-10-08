@@ -1,0 +1,86 @@
+{
+  "name": "any",
+  "description": "Checks if the callback returns a truthy value for any element in a collection, or for any sub-string in a string. The function returns as soon as it finds a passing value and does not iterate over the entire collection.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/any",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/any.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/any/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/any/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^4.0.4",
+    "verb": ">= 0.2.6",
+    "verb-tag-jscomments": ">= 0.2.0"
+  },
+  "keywords": [
+    "arr",
+    "array",
+    "check",
+    "contains",
+    "detect",
+    "dot",
+    "find",
+    "for",
+    "for-own",
+    "forown",
+    "function",
+    "has",
+    "has-own",
+    "hasown",
+    "is",
+    "is-object",
+    "isobject",
+    "iterate",
+    "iterator",
+    "javascript",
+    "js",
+    "key",
+    "keys",
+    "lookup",
+    "node",
+    "node-js",
+    "notation",
+    "object",
+    "of",
+    "own",
+    "pick",
+    "prop",
+    "properties",
+    "property",
+    "props",
+    "string",
+    "type",
+    "type-of",
+    "typeof",
+    "util",
+    "utilities",
+    "utility",
+    "utils",
+    "value"
+  ],
+  "dependencies": {
+    "for-own": "^0.1.2",
+    "make-iterator": "^0.1.0"
+  }
+}
