@@ -20,6 +20,7 @@ module.exports = function any(value, fn, thisArg) {
     return value.indexOf(fn) !== -1;
   }
 
+  // object key
   if (typeof fn === 'string') {
     if (value.hasOwnProperty(fn)) {
       return true;
@@ -41,7 +42,7 @@ module.exports = function any(value, fn, thisArg) {
       }
     }
 
-  // objects
+  // object properties/values
   } else {
     forOwn(value, function (val, key) {
       if (fn(val, key, value)) {
