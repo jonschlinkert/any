@@ -1,7 +1,7 @@
 {
   "name": "any",
   "description": "Returns `true` if a value exists in the given string, array or object, or if a callback is passed checks to see if a truthy value is returned for any element in a collection or for any sub-string in a string. The function returns as soon as it finds a passing value and does not iterate over the entire collection.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/any",
   "author": {
     "name": "Jon Schlinkert",
