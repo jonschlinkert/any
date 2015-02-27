@@ -1,13 +1,13 @@
 /*!
  * any <https://github.com/jonschlinkert/any>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT License
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
  */
 
 'use strict';
 
-var makeIterator = require('make-iterator');
+var iterator = require('make-iterator');
 var forOwn = require('for-own');
 
 module.exports = function any(value, fn, thisArg) {
@@ -27,7 +27,7 @@ module.exports = function any(value, fn, thisArg) {
     }
   }
 
-  fn = makeIterator(fn, thisArg);
+  fn = iterator(fn, thisArg);
   var res = false;
 
   // arrays or arguments

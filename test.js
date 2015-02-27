@@ -1,13 +1,13 @@
 /*!
- * any <https: //github.com/jonschlinkert/any>
+ * any <https://github.com/jonschlinkert/any>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT License
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
  */
 
 'use strict';
 
-var should = require('should');
+require('should');
 var any = require('./');
 
 
