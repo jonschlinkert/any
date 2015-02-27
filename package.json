@@ -1,7 +1,7 @@
 {
   "name": "any",
   "description": "Returns `true` if a value exists in the given string, array or object.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/any",
   "author": {
     "name": "Jon Schlinkert",
